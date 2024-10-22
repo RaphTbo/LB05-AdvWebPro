@@ -1,56 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>JavaScript Forms Lab - Excel Functions</title>
-    <link rel="stylesheet" href="../LW5/css/style.css">
-</head>
-<body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="excel.html">Excel</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <form id="excel-form" name="excelform">
-            <div class="form-group">
-                <label for="numbers">Enter your numbers separated by spaces:</label>
-                <input type="text" id="numbers" name="numbers" placeholder="Example: 23 67 98 90 56">
-            </div>
-            <div class="form-group">
-                <fieldset>
-                    <legend>Excel Functions:</legend>
-                    <div>
-                        <input type="radio" id="sum" name="excel" value="sum" checked>
-                        <label for="sum">AutoSum</label>
-                    </div>
-                    <div>
-                        <input type="radio" id="avg" name="excel" value="avg">
-                        <label for="avg">Average</label>
-                    </div>
-                    <div>
-                        <input type="radio" id="max" name="excel" value="max">
-                        <label for="max">Max</label>
-                    </div>
-                    <div>
-                        <input type="radio" id="min" name="excel" value="min">
-                        <label for="min">Min</label>
-                    </div>
-                </fieldset>
-            </div>
-            <button type="submit" id="calculateBtn">Calculate</button>
-        </form>
-        <div id="result"></div>
-    </main>
-    <footer>
-        <p>ILAC & EFREI - HTML, CSS, and JavaScript Assignment</p>
-    </footer>
-    <div class="theme-switcher">
-        <button id="themeToggle">Toggle Theme</button>
-    </div>
-    <script src="../LW5/js/script.js"></script>
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>LabWork04</title>
+        <link rel="stylesheet" href="../css/style.css">
+    </head>
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="excel.html">Excel</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <form id="excel-form" name="excelform">
+                <div class="form-group">
+                    <label for="numbers">Enter your numbers separated by spaces:</label>
+                    <input type="text" id="numbers" name="numbers" placeholder="Example: 23 67 98 90 56">
+                </div>
+                <div class="form-group">
+                    <fieldset>
+                        <legend>Excel Functions:</legend>
+                        <div>
+                            <input type="radio" id="sum" name="excel" value="sum" checked>
+                            <label for="sum">AutoSum</label>
+                        </div>
+                        <div>
+                            <input type="radio" id="avg" name="excel" value="avg">
+                            <label for="avg">Average</label>
+                        </div>
+                        <div>
+                            <input type="radio" id="max" name="excel" value="max">
+                            <label for="max">Max</label>
+                        </div>
+                        <div>
+                            <input type="radio" id="min" name="excel" value="min">
+                            <label for="min">Min</label>
+                        </div>
+                    </fieldset>
+                </div>
+                <button type="submit" id="calculateBtn">Calculate</button>
+            </form>
+            <div id="result"></div>
+        </main>
+        <footer>
+            <p>ILAC & EFREI - HTML, CSS, and JavaScript Assignment - THEBAULT Raphaël</p>
+        </footer>
+        <div class="theme-switcher">
+            <button id="themeToggle">Toggle Theme</button>
+        </div>
+        <script src="../js/script.js"></script>
+    </body>
 </html>
